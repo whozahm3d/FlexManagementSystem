@@ -1,2 +1,25 @@
-# FlexManagementSystem
-A simple C++ console-based Student Course Management System that handles student enrollment, course data, validation, and file-based data storage.
+# 🎓 Student Course/Flex Management System
+
+This is a C++-based console application designed to manage student enrollments and course data efficiently. It simulates a basic academic management system that handles course registration, student details, and data persistence through text files.
+
+## 🔧 Features
+- **Student Management:** Add, view, and manage student records.
+- **Course Management:** Input and maintain course-related data.
+- **Data Validation:** Ensures proper input formatting and consistency.
+- **File Handling:** 
+  - Persistent storage via `student_data.txt`, `course_data.txt`, and `save.txt`.
+  - Inputs and outputs are handled using file I/O for record retention.
+- **Modular Code Structure:**
+  - `classes.h` defines core classes.
+  - `validation.h` includes data validation utilities.
+  - `managementsystem.h` contains the management system logic.
+
+## 📂 File Overview
+- `classes.h`, `system.h`, `managementsystem.h`: Core logic and class definitions.
+- `FileName.cpp`: Main implementation file.
+- `*.txt`: Data files for storing and retrieving student/course information.
+
+## 🛠️ How to Run
+1. Compile using a C++ compiler (e.g., g++, Visual Studio).
+2. Run the executable in a terminal.
+3. Interact via the console-based menu.
