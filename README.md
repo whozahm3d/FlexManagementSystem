@@ -35,14 +35,3 @@ Main Menu
 4 - Marks
 5 - Course Withdraw
 6 - Exit
-
-## 🗂️ File Structure
-
-| File | Description |
-|------|-------------|
-| `FileName.cpp` | Main driver code for the system |
-| `classes.h` | Contains definitions for `Student`, `Course`, `Attendance`, and `Marks` classes |
-| `managementsystem.h` | Manages core functions and menus |
-| `system.h`, `global.h` | Support functions and global variables |
-| `validation.h` | Handles input validation logic |
-| `*.txt` | Text files used for data storage |
