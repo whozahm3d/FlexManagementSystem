@@ -19,16 +19,16 @@ This is a C++-based console application designed to manage student enrollments a
 - `FileName.cpp`: Main implementation file.
 - `*.txt`: Data files for storing and retrieving student/course information.
 
+## 🛠️ How to Run
+1. Compile using a C++ compiler (e.g., g++, Visual Studio).
+2. Run the executable in a terminal.
+3. Interact via the console-based menu.
+
 ## 🚀 Contribute
 
 Want to add features like a GUI, database integration, or more detailed reports?  
 Fork this repository, make your changes, and submit a pull request.  
 **Your improvements are welcome!**
-
-## 🛠️ How to Run
-1. Compile using a C++ compiler (e.g., g++, Visual Studio).
-2. Run the executable in a terminal.
-3. Interact via the console-based menu.
 
 
 ## 🧭 Main Menu
