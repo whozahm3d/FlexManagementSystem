@@ -1,57 +1,46 @@
 # 🎓 Student Course Management System
 
-This is a modular, menu-driven **C++ console application** for managing students, courses, attendance, and marks. It provides a simple yet structured solution for small academic institutions or test environments to handle student and course-related operations.
+A modular, menu-driven **C++ console application** designed to manage student enrollments, course registrations, attendance, and marks. Ideal for academic mini-projects or small learning environments, this system persists data using simple file I/O.
 
 ---
 
 ## 📌 Features
 
 ### 👤 Student Enrollment
-- Add new students with unique IDs and names.
-- View already enrolled students.
+- Add new students with unique ID and name.
+- Display a list of enrolled students.
 
 ### 📚 Course Registration
-- Register students in various courses.
-- Each student can enroll in multiple courses.
+- Register students in multiple courses.
+- View and manage course enrollments.
 
-### 🗓️ Attendance Management
-- Record attendance for each student per course.
-- View attendance records.
-- Supports marking present days per student per course.
+### 🗓️ Attendance Tracking
+- Record how many days each student was present per course.
+- Display attendance records.
 
-### 🧮 Marks Management
-- Enter marks for each student in each course.
-- View student marks.
-- Basic grading data structure supported via `Marks` class.
+### 🧮 Marks Entry
+- Assign and store marks for students in specific courses.
+- View academic performance of students.
 
 ### ❌ Course Withdrawal
-- Students can be withdrawn from courses.
-- The system updates registration and related records.
+- Remove a student from any registered course.
+- Update internal records accordingly.
 
-### 💾 File Handling (Persistence)
-- Data for students, courses, attendance, and marks are stored in `.txt` files:
-  - `student_data.txt`, `course_data.txt`, `save.txt`
-- Allows reloading and saving the state across program runs.
-
----
-
-## 🗂️ File Structure
-
-| File | Description |
-|------|-------------|
-| `FileName.cpp` | Main driver code for the system |
-| `classes.h` | Contains definitions for `Student`, `Course`, `Attendance`, and `Marks` classes |
-| `managementsystem.h` | Manages core functions and menus |
-| `system.h`, `global.h` | Support functions and global variables |
-| `validation.h` | Handles input validation logic |
-| `*.txt` | Text files used for data storage |
+### 💾 File Persistence
+- Saves and loads data using:
+  - `student_data.txt` – Student records
+  - `course_data.txt` – Course enrollment
+  - `save.txt` – Attendance/Marks/State data
 
 ---
 
-## 🛠️ How to Compile and Run
+## 🧭 Main Menu
 
-### 🔹 Using g++ (Linux/Windows)
-
-```bash
-g++ FileName.cpp -o StudentManagement
-./StudentManagement
+```text
+Main Menu
+1 - Enroll a student
+2 - Course Registration
+3 - Attendance
+4 - Marks
+5 - Course Withdraw
+6 - Exit
