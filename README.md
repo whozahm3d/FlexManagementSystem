@@ -35,3 +35,9 @@ Main Menu
 4 - Marks
 5 - Course Withdraw
 6 - Exit
+
+## 🚀 Contribute
+
+Want to add features like a GUI, database integration, or more detailed reports?  
+Fork this repository, make your changes, and submit a pull request.  
+**Your improvements are welcome!**
