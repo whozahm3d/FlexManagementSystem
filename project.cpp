@@ -993,7 +993,7 @@ int validation::findCourse(const string& courseName)const
 
 int main()
 {
-	cout << "\t\t\t\t\t**SCHOOL MANAGEMENT SYSTEM" << endl << endl;
+	cout << "\t\t\t\t\t**STUDENT COURSE/FLEX MANAGEMENT SYSTEM" << endl << endl;
 
 	managementsystem m;
 	m.run();
