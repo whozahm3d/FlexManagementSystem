@@ -1,0 +1,16 @@
+# Compiled object files
+*.o
+
+# Compiled dynamic libraries
+*.so
+
+# Compiled static libraries
+*.a
+
+# Executables
+*.exe
+*.out
+
+# Backup files
+*~
+*.bak
